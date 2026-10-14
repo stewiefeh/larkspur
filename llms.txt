@@ -1,0 +1,25 @@
+# Larkspur
+
+A fictional seasonal restaurant concept ("Larkspur", Cold Spring, NY) built as a
+design and engineering portfolio piece by Fo on behalf of Stephen Fehon.
+Every page is static HTML with hand-written CSS and vanilla JavaScript, no
+frameworks, no external dependencies.
+
+## Site map
+
+- /            Home: hero, press marquee, philosophy, menu preview, room gallery, journal, reservation CTA
+- /menu        Full menus: tasting, à la carte, wine, cocktails, zero-proof, with filters
+- /story       Chef story, season timeline, farm partners, press
+- /journal     Journal index with four essays
+- /journal/reading-a-menu.html        Essay: Reading a Menu Is Reading a Place
+- /journal/the-long-table.html        Essay: The Case for the Three-Hour Dinner
+- /journal/season-as-constraint.html  Essay: Season Is Not a Limitation, It Is the Idea
+- /reserve     Reservations, hours, private dining, accessibility, FAQ
+- /404.html    Designed not-found page
+
+## Notes
+
+- Restaurant, people, menu and press quotes are invented for the portfolio.
+- Fonts: Fraunces (display) and Inter (text), self-hosted, loaded via font-display swap.
+- Theme: light "paper" default, dark "late service" theme, toggle persisted in localStorage.
+- Accessibility: WCAG 2.2 AA targets, prefers-reduced-motion honored, keyboard-complete.

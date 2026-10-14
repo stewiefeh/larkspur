@@ -1,0 +1,8 @@
+/* humans.txt */
+Team: Fo (design, code, copy) - Wajo AI
+Site: fictional concept, built as a portfolio piece
+Standards: HTML5, CSS cascade layers, vanilla ES2022
+Fonts: Fraunces, Inter (SIL OFL)
+Palette: OKLCH, warm paper world
+Accessibility: WCAG 2.2 AA targets, reduced-motion honored
+Location: Cold Spring, NY (fictional)

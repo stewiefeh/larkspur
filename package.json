@@ -1,0 +1,17 @@
+{
+  "name": "larkspur",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Larkspur: a fictional seasonal kitchen and bar. Static site, no frameworks.",
+  "scripts": {
+    "build:pages": "python3 build_home.py && python3 build_menu.py && python3 build_story.py && python3 build_journal.py && python3 build_reserve.py && python3 build_404.py && python3 build_extra.py && python3 build_extra2.py",
+    "lint:css": "npx stylelint 'assets/css/*.css'",
+    "serve": "python3 -m http.server 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sfehon/larkspur"
+  },
+  "keywords": ["restaurant", "static-site", "css", "vanilla-js"],
+  "license": "UNLICENSED"
+}

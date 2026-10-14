@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+  <rect width="1200" height="900" fill="#b0885c"/>
+  <rect x="20" y="558" width="160" height="144" fill="#e8dfcf" opacity="0.85"/>
+  <rect x="20" y="738" width="160" height="144" fill="#b0885c" opacity="0.85"/>
+  <rect x="220" y="18" width="160" height="144" fill="#7d81a8" opacity="0.85"/>
+  <rect x="220" y="198" width="160" height="144" fill="#8b8f6f" opacity="0.85"/>
+  <rect x="220" y="558" width="160" height="144" fill="#e8dfcf" opacity="0.85"/>
+  <rect x="420" y="378" width="160" height="144" fill="#7d81a8" opacity="0.85"/>
+  <rect x="420" y="738" width="160" height="144" fill="#7d81a8" opacity="0.85"/>
+  <rect x="620" y="18" width="160" height="144" fill="#b0885c" opacity="0.85"/>
+  <rect x="620" y="378" width="160" height="144" fill="#8b8f6f" opacity="0.85"/>
+  <rect x="620" y="558" width="160" height="144" fill="#7d81a8" opacity="0.85"/>
+  <rect x="820" y="378" width="160" height="144" fill="#e8dfcf" opacity="0.85"/>
+  <rect x="820" y="558" width="160" height="144" fill="#8b8f6f" opacity="0.85"/>
+  <rect x="820" y="738" width="160" height="144" fill="#e8dfcf" opacity="0.85"/>
+  <rect x="1020" y="18" width="160" height="144" fill="#e8dfcf" opacity="0.85"/>
+  <rect x="1020" y="378" width="160" height="144" fill="#7d81a8" opacity="0.85"/>
+  <rect x="1020" y="558" width="160" height="144" fill="#7d81a8" opacity="0.85"/>
+</svg>

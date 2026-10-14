@@ -1,0 +1,174 @@
+/* ==========================================================================
+   LARKSPUR — Print stylesheet for /menu.html
+   Designed to print the menu the way the room would hand it over: ink on
+   paper, no chrome, no buttons. Attach: <link rel="stylesheet"
+   href="/assets/css/menu-print.css" media="print">
+   ========================================================================== */
+
+@media print {
+  /* The room's letterhead */
+  :root {
+    --paper: #fff;
+    --paper-raised: #fff;
+    --paper-sunken: #fff;
+    --ink: #1a1a1a;
+    --ink-soft: #333;
+    --ink-mute: #555;
+    --ink-faint: #777;
+    --line: rgba(26, 26, 26, 0.18);
+    --line-strong: rgba(26, 26, 26, 0.4);
+    --accent: #1a1a1a;
+    --accent-deep: #1a1a1a;
+    --accent-soft: transparent;
+    --moss: #1a1a1a;
+    --clay: #1a1a1a;
+    --gold: #1a1a1a;
+  }
+
+  * {
+    color: var(--ink) !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    font-size: 10.5pt;
+    line-height: 1.5;
+    padding: 0;
+  }
+
+  body::before {
+    display: none;
+  }
+
+  /* Chrome the menu does not need on paper */
+  .site-header,
+  .site-footer,
+  .back-to-top,
+  .marquee,
+  .menu-tabs,
+  .menu-filters,
+  .search-sheet,
+  .hero-scroll-cue,
+  .btn {
+    display: none !important;
+  }
+
+  .page-head {
+    padding-block: 0 12pt;
+    border-bottom: 1.5pt solid var(--ink);
+    background: none;
+  }
+
+  .page-head h1 {
+    font-size: 24pt;
+    line-height: 1.1;
+  }
+
+  .page-head .lede {
+    font-size: 10pt;
+    max-width: none;
+  }
+
+  .page-head-meta {
+    display: flex;
+    gap: 16pt;
+    font-size: 8pt;
+    letter-spacing: 0.08em;
+  }
+
+  .section {
+    padding-block: 12pt;
+  }
+
+  /* Every menu section prints; tabs are ignored */
+  .menu-panel[hidden] {
+    display: block !important;
+  }
+
+  .menu-tab,
+  .menu-filter {
+    display: none;
+  }
+
+  .menu-section {
+    break-inside: avoid-page;
+    max-width: none;
+  }
+
+  .menu-section + .menu-section {
+    margin-top: 14pt;
+    padding-top: 10pt;
+  }
+
+  .menu-section-head {
+    margin-bottom: 6pt;
+  }
+
+  .menu-section-head h2 {
+    font-size: 13pt;
+    letter-spacing: 0.02em;
+  }
+
+  .menu-section-head .note {
+    font-size: 8.5pt;
+  }
+
+  .menu-item {
+    break-inside: avoid;
+    padding-block: 4pt;
+  }
+
+  .menu-item h3 {
+    font-size: 10.5pt;
+    font-weight: 600;
+  }
+
+  .menu-item .price {
+    font-size: 10.5pt;
+  }
+
+  .menu-item p {
+    font-size: 9pt;
+    max-width: none;
+    color: var(--ink-soft);
+  }
+
+  .dietary {
+    font-size: 6.5pt;
+    border: none;
+    font-weight: 700;
+    vertical-align: baseline;
+    margin-left: 3pt;
+  }
+
+  .wine-glass {
+    font-size: 8pt;
+    color: var(--ink-soft);
+  }
+
+  .menu-legend {
+    font-size: 8pt;
+    border-top: 0.5pt solid var(--line-strong);
+    margin-top: 14pt;
+    padding-top: 6pt;
+  }
+
+  /* Footer line the printer gets, the screen does not show */
+  .section:last-of-type::after {
+    content: "Larkspur, 14 Front Street, Cold Spring NY - printed from larkspur.pages.dev";
+    display: block;
+    margin-top: 16pt;
+    padding-top: 6pt;
+    border-top: 0.5pt solid var(--line-strong);
+    font-size: 7.5pt;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--ink-mute);
+  }
+
+  @page {
+    margin: 18mm 16mm;
+  }
+}

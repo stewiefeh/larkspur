@@ -1,0 +1,12 @@
+{
+  "name": "Larkspur — Seasonal Kitchen & Bar",
+  "short_name": "Larkspur",
+  "description": "Seasonal tasting kitchen and bar. Fictional concept site.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f1e8",
+  "theme_color": "#f5f1e8",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
