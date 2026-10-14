@@ -157,7 +157,7 @@
 
   /* Footer line the printer gets, the screen does not show */
   .section:last-of-type::after {
-    content: "Larkspur, 14 Front Street, Cold Spring NY - printed from larkspur.pages.dev";
+    content: "Larkspur, 14 Front Street, Cold Spring NY - printed from larkspur-eyf.pages.dev";
     display: block;
     margin-top: 16pt;
     padding-top: 6pt;
