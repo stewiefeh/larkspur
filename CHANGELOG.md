@@ -38,3 +38,10 @@ First public build of the concept site.
 - One IntersectionObserver for all entrances, staggered by index.
 - prefers-reduced-motion collapses all motion to instant states.
 - WCAG 2.2 AA targets in both themes.
+
+## [1.0.1] - 2026-10-14
+
+### Fixed
+- Header CTA: the desktop nav had no display rule, so "Book a table" stacked
+  under the nav links and spilled below the header bar. It now sits inline
+  with the links on every breakpoint.

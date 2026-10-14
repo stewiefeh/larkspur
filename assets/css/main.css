@@ -809,6 +809,12 @@
     transform: rotate(-8deg) scale(1.08);
   }
 
+  .site-nav {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+  }
+
   .site-nav ul {
     display: flex;
     align-items: center;
